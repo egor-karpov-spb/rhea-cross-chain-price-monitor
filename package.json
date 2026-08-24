@@ -1,15 +1,21 @@
 {
-  "name": "crypto_theme",
+  "name": "rhea-cross-chain-price-monitor",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Read-only RHEA price comparison across BNB Smart Chain and NEAR Protocol.",
+  "main": "comparePrices.ts",
   "scripts": {
-    "start": "ts-node index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node comparePrices.ts",
+    "typecheck": "tsc --noEmit"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "near",
+    "bnb-chain",
+    "defi",
+    "typescript",
+    "price-monitor"
+  ],
+  "author": "Egor Karpov",
+  "license": "MIT",
   "dependencies": {
     "@ref-finance/ref-sdk": "^1.4.6",
     "@uniswap/sdk-core": "^7.7.2",
