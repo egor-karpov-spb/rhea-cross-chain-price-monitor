@@ -22,7 +22,7 @@ A read-only TypeScript command-line monitor that compares the estimated RHEA/USD
 Requirements: Node.js 20 or later.
 
 ```bash
-git clone https://github.com/genius1000iq/rhea-cross-chain-price-monitor.git
+git clone https://github.com/egor-karpov-spb/rhea-cross-chain-price-monitor.git
 cd rhea-cross-chain-price-monitor
 npm install
 npm run typecheck
